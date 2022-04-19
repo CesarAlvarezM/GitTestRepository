@@ -3,6 +3,8 @@ public class Recipe {
     String name;
     double price;
     boolean veganrecipe;
+    int numberTest1;
+    String textTest1;
 
     public Recipe(String name, double price,  boolean veganrecipe){
 
