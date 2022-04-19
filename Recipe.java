@@ -6,6 +6,10 @@ public class Recipe {
     int numberTest1;
     String textTest1;
 
+    public Recipe(){
+
+    }
+
     public Recipe(String name, double price,  boolean veganrecipe){
 
         this.name=name;
@@ -16,7 +20,6 @@ public class Recipe {
     public void getRecipeInfo(){
         System.out.println("Name: "+name+", price:"+price);
     }
-
 
 
 }
