@@ -20,6 +20,7 @@ public class Recipe {
     public void getRecipeInfo(){
         System.out.println("Name: "+name+", price:"+price);
     }
-
+    
+    system.out.print("Text to show");
 
 }
